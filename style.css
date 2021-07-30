@@ -1,0 +1,77 @@
+.navbar-brand img{
+    height: 50px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: white !important;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.navbar-nav a{
+    transition: all 0.5s ease !important;
+}
+
+.navbar-nav a:hover{
+    background: crimson;
+    padding: 14px;
+}
+
+.carousel-inner .carousel-item{
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-justify{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.iframe >*{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.px-5{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.quick-link li a{
+    color: white;
+}
+
+.quick-link li a:hover{
+    color: crimson;
+}
+
+.fa{
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.fa:hover{
+    color: white;
+    background-color: crimson;
+}
